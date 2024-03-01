@@ -5,6 +5,10 @@ import java.util.Map;
 
 // 12
 public class IntegerToRoman {
+
+    public static void main(String[] args) {
+        System.out.println(new IntegerToRoman().intToRoman(124));
+    }
     private static final Map<Integer, Character> dict = new HashMap<>();
 
     static{

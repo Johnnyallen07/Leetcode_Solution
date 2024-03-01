@@ -7,7 +7,7 @@ import java.util.Map;
 public class XII {
 
     public static void main(String[] args) {
-        System.out.println(new XII().intToRoman(113));
+        System.out.println(new XII().intToRoman(105));
     }
     private static final Map<Integer, Character> dict = new HashMap<>();
 
