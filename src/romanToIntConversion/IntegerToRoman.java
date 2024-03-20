@@ -7,7 +7,7 @@ import java.util.Map;
 public class IntegerToRoman {
 
     public static void main(String[] args) {
-        System.out.println(new IntegerToRoman().intToRoman(130));
+        System.out.println(new IntegerToRoman().intToRoman(133));
     }
     private static final Map<Integer, Character> dict = new HashMap<>();
 
